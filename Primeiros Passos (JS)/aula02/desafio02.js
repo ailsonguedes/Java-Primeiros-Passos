@@ -7,10 +7,10 @@ const distanciaViagem = 100;
 let valorFinal = 0;
 
 if (tipoCombustivel == "etanol"){
-    valorFinal = (precoEtanol / gastoMedio) * distanciaViagem
+    valorFinal = (precoEtanol / gastoMedio) * distanciaViagem;
 
 } else if (tipoCombustivel == "gasolina"){
-    valorFinal = (precoGasolina / gastoMedio) * distanciaViagem
+    valorFinal = (precoGasolina / gastoMedio) * distanciaViagem;
 }
 
 console.log("O Gasto total da viagem é: R$ " + valorFinal.toFixed(2))
