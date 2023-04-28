@@ -1,6 +1,6 @@
 
 const precoEtiqueta = 100;
-const formaDePagamento = 4;
+const formaDePagamento = 1;
 
 
 
